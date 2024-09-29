@@ -1,0 +1,56 @@
+crush exam day is our motto
+
+Very Important!!!: Don’t Use Anything that we don’t understand, make sure you understand everything you wrote.
+
+●	Drop file function makes new landing page for the file
+
+Area 1  HTML, CSS, and graphics for page layout and design, Definite Features: 
+   Custom Logo
+   consistent header and footer
+   navbar, breadcrums 
+
+Area 2:  JavaScript, jQuery, AJAX, interactivity to improve user experience  (e.g., from simple to more complex: mouse hovers, form validation, hide/show, auto-completion, drag and drop, etc.)
+   
+   Drop file function makes new landing page for the pdf by reading information about it
+
+   We want javascript functionality where we select the class we want (using course selector bar on page 4)
+       to drop the file
+      then opening a directory and launching a new page for that file probably using AJAX
+      Use AJAX Lecture for reading in JSON and creating new HTML, just try to do this with pdf 
+
+   Search Bar functionality to present list of courses using Javascript, once you click on one of those courses, takes you to a link with that courses "homepage" 
+
+   any other functional aspects seen in balsamic 
+
+
+Overall Rules for consistency: 
+   make with of pretty much all elements % so that will resize when the page does
+
+Big Things I added: 
+   Course List file
+   This file
+   Base level header 
+   Resized PNG image to cut out borders 
+   Updated file organization 
+   Added issues 
+
+Other Notes: 
+   I think we should fully go over and agree with IA before moving into our seperate branches, we should also make rules and conventions for how to document our changes and 
+   what files each of us can change and not change as to not have crazy conflicts when trying to merge, should talk about this wednesday
+
+Future Things to add: 
+   add a supported courses page with list of supported course  
+   Breadcrum functionality to most pages 
+   Header de-evolves and just has tiny logo in top left when opening exam specific page
+
+
+
+
+
+
+
+
+
+
+
+

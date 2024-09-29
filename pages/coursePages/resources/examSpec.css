@@ -1,0 +1,124 @@
+/*Styling of each specific exam page */
+
+body {
+    overflow-y: scroll;
+    margin: 0 0 0 0; 
+    /* So that a tag fits */
+    padding-top: 20px; 
+    font-family: "Chivo";
+    background-color: rgb(255, 237, 237);
+}
+
+#topBut {
+    font-family: "Chivo";
+    text-decoration: none;
+    padding: 20px;
+    background-color: red;
+    color: white;
+    border-radius: 18px;
+    margin: 1%;
+    border: 1px solid black;
+}
+
+#topBut:hover{
+    background-color: rgb(202, 1, 1);
+}
+
+h1 {
+    padding-top: 20px;
+    margin-left: 2%;
+    font-size: 2.5em;
+    text-decoration: underline;
+    color: red; 
+    font-family: "Lilita One";
+}
+
+iframe {
+    width: 800px;
+    height: 700px;
+    padding-bottom: 150px;
+    margin-left: 2%;
+    border: 0px solid black;
+}
+
+.flex-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.inline-container {
+    display: inline;
+}
+
+#examHolder{
+    float: left; 
+    margin-top: 1%;
+}
+
+#info{
+    float: right; 
+    margin-top: 220px;
+    /* margin-right: 60px; */
+    padding: 25px;
+    background-color: red;
+    color: white;
+    border-radius: 20px;
+    border: 6px solid black;
+}
+
+h2{
+    font-size: 2em;
+    font-family: "Lilita One";
+    color: black;
+}
+
+.inVals{
+    font-family: "Chivo";
+    color: white; 
+    padding-left: 10px;
+}
+
+#stars > img {
+    padding: 0;
+    width: 35px;
+    height: auto;
+}
+
+#stars{
+    width: 100%;
+    text-align: center;
+}
+
+.examContent {
+    border: 2px dotted black;
+}
+
+#leaveReview {
+    margin-top: 20px;
+}
+
+#leaveReview img {
+    width: 30px;
+    height: auto;
+    padding: 0;
+}
+
+#leaveReview > button {
+    padding: 15px;
+    margin-top: 15px;
+    background-color: red;
+    color: white;
+    border-radius: 18px;
+    font-family: "Chivo";
+}
+
+#leaveReview > button:hover{
+    background-color: rgb(202, 1, 1);
+}
+
+#displayRating {
+    color: red;
+    align-self: center;
+    font-weight: bold;
+}

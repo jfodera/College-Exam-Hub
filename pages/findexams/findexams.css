@@ -1,0 +1,220 @@
+/* establishing the margin for the HTML page and allowing the user to have a scroll bar*/
+body{
+    margin: 0 0 0 0;
+    overflow-y: scroll;
+}
+
+/* formatting for the div that contains all the information in between the header and footer  */
+.mainSec{
+    margin: 0;
+    padding: 0; 
+    margin-bottom: 350px;
+ 
+}
+/* div that replaces the mainSec class when the user drops in a file */
+.mainSecChange{
+    margin: 0;
+    padding: 0;
+    margin-bottom: 300px;
+}
+
+/* formatting the confirm email button */
+#confBut{
+    background-color: black;
+    margin-left: 65%;
+    margin-right: 30px;
+    display: inline-block; 
+    color: white; 
+    text-align: center;
+    padding: 12px;
+    text-decoration: none;
+    font-family: "Lilita One" ,sans-serif;
+    font-weight: 1000;
+    font-size: 1.2em;
+    height: 100%;
+    border-radius: 20px;
+}
+
+/* establish formatting for when mike is the persona */
+#mikeIn{
+    margin-left: 63%;
+}
+
+
+/* establishing the flex box that will hold the title of the page and the search bar*/
+.searchContainer{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+/* formatting the title of the page*/
+#searchTitle{
+    font-family: "Lilita One" ,sans-serif;
+    font-size: 3.5em;
+    margin-bottom: 1%;
+    margin-top: 1%;
+}
+
+/* formatting the serach bar*/
+#search{
+    margin-bottom: 1%;
+    font-size: 17px;
+    width: 40%; 
+    min-width: 20%;
+    border-radius: 15px;
+    font-family: "chivo";
+    text-indent: 3%;
+}
+
+/* formatting the div that holds the drop down and the drag and drop box*/
+.midpage{
+    padding-top: 40px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: center;
+    text-align: center;
+}
+
+/* formatting the drag and drop box*/
+#dragDrop{
+    display: block; 
+    margin: auto;
+    width: 600px; 
+    height: 400px; 
+    background-color: red;
+    border: 3px;
+    border-style: dashed;
+    border-radius: 5px;
+}
+
+/* formatting the drag and drop box for when the user hovers over it with the file*/
+#dragDrop.whileOver{
+    background-color: lightcoral;
+    border-style: solid;
+    border-color: aqua;
+}
+
+/* formatting the div that holds the contents inside the drag and drop box*/
+#ddSelect{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 16%;
+}
+
+/* formatting the input tag that allows user to select file from computer */
+#selectFile{    
+    display: none;
+}
+
+/* formatting the button that the user clicks on to select file from computer  */
+.changeButton{
+    color: white; 
+    text-align: center;
+    text-decoration: none;
+    font-family: "Lilita One" ,sans-serif;
+    font-weight: 1000;
+    font-size: 1.2em;
+    height: 5%;
+    width: 40%;
+    border-radius: 15px;
+    background-color: black;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+/* formatting the select file button to have white line under it when user hovers over */
+.changeButton:hover{
+    /*  text-decoration: underline; */
+    border-bottom: 3px solid white;
+    /*  padding-bottom: 30px; */
+    cursor: pointer;
+}
+
+/* formatting the description of what to do under the select file button*/
+#ddoption{
+    font-family: "Chivo";
+    color: white;
+}
+
+/* formatting the name of the file after the user drops in file*/
+#fileName{
+    font-family: "Chivo";
+    color:white;
+}
+
+/* formatting the drop down on top of the drag and drop box*/
+#options{
+    padding:5px;
+    margin-bottom: 1%;
+    margin-right: 23%;
+    border-radius: 10px;
+}
+
+
+/*Searchbar - resizing the bar */
+#autoHolder{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.minButSpec{
+    display: block;
+    width: 25px; 
+    height: auto; 
+}
+ 
+#searchButtonSpec{
+    position: absolute;
+    top: 38px;
+    left: 8px;
+    cursor: pointer;
+}
+ 
+#clearButtonSpec{
+    position: absolute;
+    top: 35px;
+    right: -32px;
+    cursor: pointer;
+}
+
+/* formatting upload button that will show up when user drops in file*/
+#uploadButton{
+    display: block;
+    color: white; 
+    text-align: center;
+    text-decoration: none;
+    font-family: "Lilita One" ,sans-serif;
+    font-weight: 1000;
+    font-size: 2.0em;
+    height: 7%;
+    width: 17%;
+    border-radius: 15px;
+    background-color: green;
+    padding-top: 10px;
+    padding-bottom: 10px;  
+    margin-top: 3%;
+
+}
+
+/* formatting the div that holds all the file information after it is dropped inside the drag and drop box*/
+#fileAtr{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 16%;
+}
+
+/* formatting the description of what to do if user wants to remove file*/
+#clicktoRemove{
+    font-family: "Chivo";
+    color:white;
+
+}

@@ -1,0 +1,31 @@
+{
+    "exams" : [
+        {
+            "examName": "DS_exam1_Spring2024.pdf",
+            "examTitle": "Data Structures Exam 1 Spring 2024",
+            "examType": "1",
+            "examYear": 2024,
+            "rating": 2,
+            "numRatings": 10,
+            "examPage": "examPages/DS_exam1_Spring2024.html"
+        },
+        {
+            "examName": "DS_exam2_Fall2023.pdf",
+            "examTitle": "Data Structures Exam 2 Fall 2023",
+            "examType": "2",
+            "examYear": 2023,
+            "rating": 3.4,
+            "numRatings": 3,
+            "examPage": "examPages/DS_exam2_Fall2023.html"
+        },
+        {
+            "examName": "DS_exam3_Spring2024.pdf",
+            "examTitle": "Data Structures Exam 3 Spring 2024",
+            "examType": "3",
+            "examYear": 2024,
+            "rating": 4.9,
+            "numRatings": 15,
+            "examPage": "examPages/DS_exam3_Spring2024.html"
+        }
+    ]
+}

@@ -1,0 +1,243 @@
+/*Styling for Header and Footer  */ 
+
+body{
+   background-color: rgb(255, 237, 237);
+}
+
+/* Header */
+#header{
+   background-color:  red;
+}
+
+
+.flex-container {
+   display: flex;
+   flex-direction: row;
+   flex-wrap: nowrap;
+   /* Perfectly center's the items */
+   align-items: center;
+   text-align: center;
+}
+
+ .normLinks:hover{
+   border-bottom: 3px solid white;
+}
+
+#logoLin{
+   display: inline-block; 
+   padding: 10px 20px 10px 15px;
+}
+
+#headLogo{
+   width: 130px; 
+   /* Preserves aspect ratio */
+   height: auto; 
+}
+
+
+/* styles all links within header class divs */
+.normLinks{
+   display: inline-block; 
+   color: white; 
+   text-align: center;
+   padding: 0 10px;
+   text-decoration: none;
+   font-family: "Lilita One" ,sans-serif;
+   font-weight: 1000;
+   font-size: 1.2em;
+   height: 100%;
+   border-radius: 15px;
+}
+
+#home{
+   margin-left: 20px;
+   margin-right: 30px;
+}
+
+#supCourse{
+   margin-left: 0px;
+   margin-right: 40px;  
+}
+
+.confLink{
+   cursor: pointer;
+   margin-right: 40px;
+   background-color: black;
+   display: inline-block; 
+   color: white; 
+   text-align: center;
+   padding: 10px;
+   text-decoration: none;
+   font-family: "Lilita One" ,sans-serif;
+   font-weight: 1000;
+   font-size: 1.2em;
+   height: 100%;
+   border-radius: 20px;
+}
+
+.confLink:hover{
+   /* text-decoration: underline; */
+   border-bottom: 3px solid white;
+
+}
+
+.welMike{
+   margin-right: 40px;
+   background-color: rgb(19, 212, 19);
+   padding: 10px 10px; 
+   color: white; 
+   font-family: "Lilita One";
+   border-radius: 20px;
+}
+
+/*Searchbar*/
+#formBar{
+   position: relative;
+   display: flex;
+   align-self: flex-start;
+   width: 100%; 
+   min-width: 50%;
+   margin: 0;
+   padding: 0;
+}
+
+#autoHolder{
+   position: relative;
+   padding-top: 20px;
+   /* display: flex; */
+   width: 70%; 
+   min-width: 50%;
+}
+
+#searchBar{
+   display: inline-block;
+   padding: 6px;
+   border: none;
+   margin-top: 8px;
+   font-size: 17px;
+   width: 100%; 
+   min-width: 50%;
+   border-radius: 15px;
+   border:2px solid black; 
+   font-family: "Chivo"; 
+   color: black; 
+   font-size: 1.2em;
+   /* So doesn't hit icons */
+   padding-left: 30px;
+}
+
+#searchBar::content{
+   padding-left: 20px;
+   padding-right: 20px;
+}
+
+#searchBar::placeholder{
+   font-family: "Chivo"; 
+   color: black; 
+   font-size: 1.2em;
+   opacity: 0.4;
+}
+
+#searchBar::content{
+   font-family: "Chivo"; 
+   color: black; 
+   font-size: 1em;
+   padding-left: 20px;
+   padding-right: 20px;
+}
+
+.minBut{
+   display: block;
+   width: 25px; 
+   height: auto; 
+}
+
+#searchButton{
+   position: absolute;
+   top: 38px;
+   left: 8px;
+   cursor: pointer;
+}
+
+#clearButton{
+   position: absolute;
+   top: 35px;
+   right: -30px;
+   cursor: pointer;
+}
+
+.auto-items {
+   position: absolute;
+   display: block;
+   border: 2px solid black;
+   font-family: "Chivo"; 
+   color: black; 
+   font-size: 1.2em;
+   /*position the autocomplete items to be the same width as the container:*/
+   top: 100%;
+   left: 0;
+   right: 0;
+   width: 101%;
+   background-color: white;
+   text-align: left;
+   padding-left: 30px;
+ }
+
+ .auto-items:hover {
+   background-color: gainsboro;
+   cursor: pointer;
+ }
+
+/*Footer*/
+footer {
+   /* Sizing */
+   display: block;
+   width: 100%;
+   height: 125px;
+   text-align: center;
+   background-color: red;
+   border-top: 10px; 
+   /*Font info*/
+   color: white;
+   font-family: "Chivo";  
+   font-size: 0.9em;
+   font-weight: 300;
+}
+
+#lm{
+   font-weight: 300;
+   text-align: center;
+}
+
+#helpLogos{
+   padding-top: 15px;   
+   justify-content: center;
+}
+
+/* Discord Logo from: https://discord.com/branding */
+#discLogo{
+   padding-right: 12px;
+   width: 50px; 
+   height: auto; 
+}
+
+/*github logo from: https://github.com/logos */
+#gitLogo{
+   padding-left: 12px;
+   width: 50px;
+   height: auto; 
+}
+
+#cpright{
+   padding-bottom: 0px;
+   margin-bottom: 0px;
+   padding-top: 0px;
+   margin-top: 5px;
+}
+
+ #date{
+   padding-top: 0px;
+   margin-top: 5px;
+   font-style: italic;
+   font-weight: 400;
+ }

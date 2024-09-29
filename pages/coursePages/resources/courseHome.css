@@ -1,0 +1,80 @@
+/*Styling for each course Home Page*/
+
+body {
+    overflow-y: scroll;
+    margin: 0 0 0 0;
+}
+
+/* format section with dropdown menus */
+.userInput {
+    margin: auto;
+    width: 90%;
+    font-family: "Chivo";
+    display: flex;
+    flex-direction: column;
+}
+
+/* format dropdown menus */
+select {
+    padding: 6px;
+    border: 1px solid gray;
+    border-radius: 2px;
+    font-family: "Chivo";
+}
+
+.chooseExam {
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.sortExams {
+    font-size: 24px;
+}
+
+/* format section for exams */
+.exams {
+    margin: auto;
+    width: 90%;
+    font-family: "Chivo";
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+}
+
+/* format each individual exam shown */
+.exam {
+    border: 2px outset red;
+    border-radius: 30px;
+    margin-right: 5%;
+    margin-top: 2%;
+    flex-grow: 0;
+    flex-shrink: 0;
+    flex-basis: 250px;
+}
+
+.exam button {
+    border-radius: 29px;
+    width: 100%;
+    height: 100%;
+    flex-grow: 1;
+    background-color: white;
+    font-family: "Chivo";
+}
+
+.exam h3 {
+    color: red;
+}
+
+.exam p {
+    font-style: italic;
+}
+
+.stars {
+    display: inline;
+}
+
+.stars > img {
+    width: 25px;
+    height: auto;
+}

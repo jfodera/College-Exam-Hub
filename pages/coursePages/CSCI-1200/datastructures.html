@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Data Structures Exams</title>
+
+    <!-- Functionality and styling -->
+    <script src="../../../resources/jquery-3.6.1.min.js"></script>
+    <script src="../resources/courseHome.js"></script>
+    <script src="../../../resources/headFoot.js"></script>
+    <script src="../../../resources/headSearch.js"></script>
+    <link rel="stylesheet" href="../resources/courseHome.css">
+    <link rel="stylesheet" href="../../../resources/headFoot.css">
+    <link rel="stylesheet" href="../resources/examFooter.css">
+
+    <!-- Font for Names from Google Fonts, These fonts are licensed under the Open Font License. -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lilita+One&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Chivo:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+</head>
+
+<body onload="lastMod();">
+
+    <!-- Header -->
+    <div class="flex-container" id="header">
+        <a id="logoLin" href="../../../index.html"><img id="headLogo" alt="College Exam Hub Log" src="../../../resources/cehLogo.png"></a>
+        <a id="home" class="normLinks" href="../../../index.html">Home</a>
+        <a id="supCourse" class="normLinks" href="../../courseList/courseList.html">Course List</a>
+  
+          <form autocomplete="off" onsubmit="travel(event);" id="formBar">
+   
+            <div id="autoHolder">
+              <!-- Image from: https://www.pngwing.com/en/search?q=search+icon#google_vignette -->
+              <img class="minBut" id="searchButton" onclick="travel(event);" src="../../../resources/searchIcon.png" alt="Image Search button"> 
+              <input id="searchBar" type="text" placeholder="Search Courses"> 
+              <!-- Image from: https://thenounproject.com/browse/icons/term/x/ -->
+              <img class="minBut" id="clearButton" onclick="clearField();" src="../../../resources/x.png" alt="clear search buttom"> 
+            </div>  
+  
+          </form>
+  
+        <a class="confLink" onclick="confEm();" >Confirm Email</a>
+    </div>
+
+
+    <div id="mainSec">
+
+    <div class="userInput">
+        <!-- Chooses which exam to show -->
+        <div class="chooseExam">
+            <p>Data Structures (CSCI-1200) Exams :
+                <select name="examType" id="examType">
+                    <option value="all">All Exams</option>
+                    <option value="1">Exam 1</option>
+                    <option value="2">Exam 2</option>
+                    <option value="3">Exam 3</option>
+                    <option value="Final">Final Exam</option>
+                </select>
+            </p>
+        </div>
+        <!-- Sorts exams shown -->
+        <div class="sortExams">
+            <p>Sort By: 
+                <select name="sortBy" id="sortBy">
+                    <option value="mostRecent">Most Recent (By Exam Year)</option>
+                    <option value="rating">Rating</option>
+                    <option value="mostPopular">Most Popular</option>
+                </select>
+            </p>
+        </div>
+    </div>
+
+    <!-- Displays exams dynamically with datastructures.js and datastructures.json -->
+    <div class="exams"></div>
+
+    </div>
+
+
+    <!-- Footer -->
+    <footer> 
+        <div id="helpLogos" class="flex-container">
+            <a id="discLink" href="https://discord.gg/dEYEmbhGqf"><img id="discLogo" alt="Discord Logo" src="../../../resources/636e0a6918e57475a843f59f_icon_clyde_black_RGB.png"></a>
+            <a id="gitLink" href="https://github.com/RPI-ITWS/ITWS1100-S24-team2"><img id="gitLogo" alt="Github Logo" src="../../../resources/github-mark.png"></a>
+        </div>
+        <p id="cpright">© 2024 College Exam Hub </p>
+        <p  id="date"><span id="lm">Last Modified: </span></p>
+    </footer>
+
+</body>
+
+</html>

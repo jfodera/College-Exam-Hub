@@ -1,0 +1,48 @@
+Overall Plan: 
+   This searchbar works in the header and on felipe exam page
+   Will be a script specific to search bar that will be pasted into each pages javascript file as so that we can edit the relative links
+   non-positioning related styling of search bar in header footer.css for now and get esit that
+
+
+Potential Places of error: 
+
+
+To Still do: 
+
+   
+Current Push
+
+
+If time permits: 
+   coloring of header when page minimizes
+
+
+Things I learned: 
+   Outer wrapper of searchbar is there to keep the icons within the bar
+
+
+current Commit: 
+   Finished searchbar and autocomplete (only travels when autocomplete things are added)
+   added some confirm email functionality -> only needs to work with Find Exams page 
+
+   https://www.giraffeacademy.com/web-development/css/styling-search-bar/
+
+      PHYSICS I - PHYS 1100
+      COMPUTER SCIENCE I - CSCI 1100
+      Data Structures - CSCI 1200 
+      INTRODUCTION TO BIOLOGY - BIOL 1010 - 01
+
+
+
+Better implementations for the future: 
+   figure out how to make one document for searchbar that works with all pages  
+      If have time make -> results page and 
+      have search image initiate a trip to the results page  when actually hit enter
+   Add keydown to autocompletion
+   resizing of x icon
+
+
+Then onto searchbar/header functionality dev: 
+   search image icon along with clear icon (javascript clears the box) 
+      entire search bar functionality
+   when logges in change confirm university email to welcome

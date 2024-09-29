@@ -1,0 +1,40 @@
+{
+   "exams" : [
+       {
+           "examName": "PHYS_exam2_Fall2023.pdf",
+           "examTitle": "Physics 1 Exam 2 Fall 2023",
+           "examType": "2",
+           "examYear": 2023,
+           "rating": 3.1,
+           "numRatings": 15,
+           "examPage": "examPages/PHYS_exam2_Fall2023.html"
+       },
+       {
+           "examName": "PHYS_exam3_Fall2023.pdf",
+           "examTitle": "Physics 1 Exam 3 Fall 2023",
+           "examType": "3",
+           "examYear": 2023,
+           "rating": 4.1,
+           "numRatings": 2,
+           "examPage": "examPages/PHYS_exam3_Fall2023.html"
+       },
+       {
+         "examName": "PHYS_exam3_Fall2022.pdf",
+         "examTitle": "Physics 1 Exam 3 Fall 2022",
+         "examType": "3",
+         "examYear": 2022,
+         "rating": 4.7,
+         "numRatings": 97,
+         "examPage": "examPages/PHYS_exam3_Fall2022.html"
+       },
+       {
+           "examName": "PHYS_final_Spring2021.pdf",
+           "examTitle": "Physics 1 Final Spring 2021",
+           "examType": "Final",
+           "examYear": 2021,
+           "rating": 3.5,
+           "numRatings": 77,
+           "examPage": "examPages/PHYS_final_Spring2021.html"
+       }
+   ]
+}

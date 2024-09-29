@@ -1,0 +1,78 @@
+/* Body Definitions */
+body {
+    overflow-y: scroll;
+    margin: 0 0 0 0; 
+    background-color: rgb(255, 237, 237);
+ }
+ 
+#mainSec{
+   margin: 0;
+   padding: 0; 
+   padding-bottom: 80px; 
+}
+ 
+ 
+/*Main Content*/
+#pageTitle{
+   font-family: Lilita One;
+   color: white;
+   width: 50%;
+   font-size: 3.5em;
+   margin-top: 50px;
+   margin-left: auto;
+   margin-right: auto;
+   text-align: center;
+   padding: 25px;
+   background-color: red;
+   border-radius: 60px;
+   border: 2px solid black; 
+}
+
+ 
+/* course bubble */
+.bubble{
+   font-family: Chivo;
+   background-color: white;
+   width: 65%;
+   text-align: center;
+   margin-left: auto;
+   margin-right: auto; 
+   padding: 15px;
+   padding-bottom: 30px;
+   border-radius: 25px;
+   border: 5px solid black; 
+   margin-bottom: 5%;
+}
+
+/* subject title for each bubble */
+#subjectTitle{
+   padding-left: 3%;
+   padding-bottom: 15px; 
+   font-family: Lilita One;
+   color: red; 
+   font-size: 3em;
+}
+
+/* formatting the courses list */
+ul{
+   list-style-type: none;
+}
+
+/* formatting each list item */
+li{
+   padding: 2%;
+   font-size: 1.75em;
+   
+}
+
+/* formatting coming soon at the bottom of page */
+#comingSoon{
+   font-family: Lilita One;
+   color: red;
+   width: 50%;
+   font-size: 3.5em;
+   margin-top: 50px;
+   margin-left: auto;
+   margin-right: auto;
+   text-align: center;
+}

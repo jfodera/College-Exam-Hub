@@ -1,0 +1,31 @@
+{
+   "exams" : [
+       {
+           "examName": "BIOL_exam1_Fall2021.pdf",
+           "examTitle": "Intro To Biology Exam 1 Fall 2021",
+           "examType": "1",
+           "examYear": 2021,
+           "rating": 4.9,
+           "numRatings": 90,
+           "examPage": "examPages/BIOL_exam1_Fall2021.html"
+       },
+       {
+           "examName": "BIOL_exam2_Spring2021.pdf",
+           "examTitle": "Intro To Biology Exam 2 Spring 2021",
+           "examType": "2",
+           "examYear": 2021,
+           "rating": 4.0,
+           "numRatings": 12,
+           "examPage": "examPages/BIOL_exam2_Spring2021.html"
+       },
+       {
+         "examName": "BIOL_exam3_Fall2021.pdf",
+         "examTitle": "Intro To Biology Exam 3 Fall 2021",
+         "examType": "3",
+         "examYear": 2021,
+         "rating": 4.3,
+         "numRatings": 99,
+         "examPage": "examPages/BIOL_exam3_Fall2021.html"
+       }
+   ]
+}

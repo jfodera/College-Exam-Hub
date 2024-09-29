@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>placeholder</title>
+
+    <!-- Functionality and styling -->
+    <script src="../../../../resources/jquery-3.6.1.min.js"></script>
+    <script src="../../resources/examSpec.js"></script>
+    <link rel="stylesheet" href="../../resources/examSpec.css">
+
+    <!-- Font for Names from Google Fonts, These fonts are licensed under the Open Font License. -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lilita+One&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Chivo:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div class="inline-container" id="examHolder">
+        <a id="topBut">&lArr; Go Back To Course Page</a>
+        <h1>(insert exam name)</h1>
+        <iframe ></iframe>
+    </div>
+
+    <!-- Info Box -->
+    <div class="flex-container">
+        <div class="inline-container" id="info">
+            <div id="stars">
+            </div>
+            <h2>Exam Rating: <span id="rating" class="inVals"></span></h2>
+            <h2>Number of Ratings: <span id="numRat" class="inVals"></span></h2>
+            <h2>Exam Category: <span id="cat" class="inVals"></span></h2>
+            <h2>Exam Year: <span id="year" class="inVals"></span></h2>
+        </div>
+
+        <!-- Leaving a rating -->
+        <div id="leaveReview" class="flex-container">
+            <h2>Leave A Review:</h2>
+            <div>
+                <img src="../../../../resources/800px-Five-pointed_star.svg.png" alt="clickable star">
+                <img src="../../../../resources/800px-Five-pointed_star.svg.png" alt="clickable star">
+                <img src="../../../../resources/800px-Five-pointed_star.svg.png" alt="clickable star">
+                <img src="../../../../resources/800px-Five-pointed_star.svg.png" alt="clickable star">
+                <img src="../../../../resources/800px-Five-pointed_star.svg.png" alt="clickable star">
+            </div>
+            <button>Submit</button>
+            <p id="displayRating"></p>
+        </div>
+    </div>
+
+</body>
+
+</html>

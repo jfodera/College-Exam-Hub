@@ -1,0 +1,30 @@
+{
+    "courses": [
+      {
+        "Biology": [
+            {
+                "course1": ["BIOL-1010 - Intro to Biology", "../coursePages/BIOL-1010/introBiol.html" ]
+                
+            }
+        ]
+      },      
+
+      {
+        "Computer Science": [
+            {
+                "course1": ["CSCI 1100 - Computer Science I", "../coursePages/CSCI-1100/computerSci.html" ],
+                "course2": ["CSCI 1200 - Data Structures", "../coursePages/CSCI-1200/datastructures.html" ]
+            }
+        ]
+      },
+        
+      {
+        "Physics": [
+            {
+                "course1": ["PHYS-1100 - Physics I", "../coursePages/PHYS-1100/physics1.html" ]
+            }
+        ]
+      }
+
+    ]
+  }

@@ -1,0 +1,81 @@
+
+Before submit checklist:
+
+Description of things in HTML/JavaScript to excel on: 
+
+Area 1:  HTML, CSS, and graphics for page layout and design
+
+Area 2:  JavaScript interactivity to improve user experience  (e.g., from simple to more complex: mouse hovers, form validation, hide/show, auto-completion, drag and drop, etc.)
+
+
+Plan:
+
+Have dropdown bar with options of other schools but when you select them message pops up saying, this shool is not supported at this time
+
+Has search bar at top with same functionality as one on page and as a result takes you to the same page
+
+Contact us somewhere in footer 
+
+
+new things leared: 
+   overflow tells you wether to clip content or add scrollbars when elements content is to big to fit into area
+   if display: block can have width and height specifically set
+   if display: block can have width and height specifically set, if not will only cover what it needs
+   if display: inline, means doesn't start on new lline and margins and padding affect horizontal space
+   Using Auto with image preserves aspect ratio 
+   Bottom border is really easy 
+   Variable fonts can have their weights changed while non-variable (our logo) can not 
+   Span Tag 
+   justify-content: center; aligns elements in center of flex box 
+   
+
+Future Notes:
+   Can re-arrange footer if want
+
+
+Current Commit: 
+   editing the headfoot.css to make the background a bit less white, add a footer buffer with 'main section' additions
+   Edited adding head footer instructions so that can fix validation issues
+   finished home page
+
+Questions: 
+
+debugging/helpful chunks:
+
+Potential Places of error: 
+
+Current: 
+   Making explanation, moving p styling to a surronding Div. 
+
+
+To Still do: 
+   Mess with fonts, have navbar font be the same as the PNG √
+   dicord/git links √
+   remove bottom scrollbar √
+   include background √ (none)
+   make instructions issue √
+   Launch header and footer (no searchbar functionality) √
+   School Selector Functionality √
+   Homepage working buttons and graphics finalization √
+   Homepage "Done" √
+
+   Then onto searchbar/header functionality dev: 
+      search image icon along with clear icon (javascript clears the box) 
+         entire search bar functionality
+      when logges in change confirm university email to welcome
+
+Mabye add (if time permits): 
+   positioning of green buttons aligned 
+   Add in 'crush exam day' somewhere
+   What is college exam hub button with click to dropdown
+   further styled search bar 
+   Scroll down footer pops up 
+   Red is too red mabye edit colors of header/footer/logo -> #d90e0e
+   date last modified in better format
+   Edit on window minimizations
+
+
+To Still do: 
+   Mess with fonts, have navbar font be the same as the PNG √
+   style scroll bar √
+
