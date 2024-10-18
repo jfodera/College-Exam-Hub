@@ -1,13 +1,13 @@
-College Exam Hub Homepage Link: https://foderjrpi.eastus.cloudapp.azure.com/team2/CEH/index.html
+College Exam Hub Homepage Link: https://foderj.eastus.cloudapp.azure.com/ceh/
 
-Repo Link: https://github.com/RPI-ITWS/ITWS1100-S24-team2
+Repo Link: https://github.com/jfodera/College-Exam-Hub
 
 
 
 
 Instructions: 
 
-To open College Exam Hub, the user has to navigate to https://foderjrpi.eastus.cloudapp.azure.com/team2/CEH/index.html; this will take them to the home page. In the main area of this page, the user can select a school from the dropdown menu, but currently, RPI is the only one being supported. After selecting the school the user can click on the find exams button to go to the find exams page, where they can upload or search for an exam. 
+To open College Exam Hub, the user has to navigate to https://foderj.eastus.cloudapp.azure.com/ceh/; this will take them to the home page. In the main area of this page, the user can select a school from the dropdown menu, but currently, RPI is the only one being supported. After selecting the school the user can click on the find exams button to go to the find exams page, where they can upload or search for an exam. 
 
 If the user wants to upload an exam, they can drag and drop the exam they want to upload or click the choose file button to select a file from their file explorer. From there, if they choose to delete the file, they can click on the file itself inside the target box. If they choose to upload, they need to select the course the exam is for from the dropdown and click the upload button at the bottom of the target box.
 
