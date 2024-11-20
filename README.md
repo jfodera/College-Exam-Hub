@@ -22,5 +22,3 @@ The exam upload and rating functionalities currently do not do anything; ratings
 *IMPORTANT NOTES* 
 
 *The virtual machine must be running for all of these functionalities to be present.*
-
-*Note to grader: we implemented our search bar using absolute links. This means if you view our code in live preview, the search bar will not work correctly. To make the switch to a testing environment easier, we have included the corresponding relative links (in reference to index.html) above each absolute link*
