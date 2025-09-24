@@ -1,7 +1,7 @@
 {
    "exams" : [
        {
-           "examName": "CS_exam1_Spring2017_compressed.pdf",
+           "examName": "CS_exam1_Spring2017.pdf",
            "examTitle": "Computer Science Exam 1 Spring 2017",
            "examType": "1",
            "examYear": 2017,
@@ -10,7 +10,7 @@
            "examPage": "examPages/CS_exam1_Spring2017.html"
        },
        {
-           "examName": "CS_final_Fall2022_compressed.pdf",
+           "examName": "CS_final_Fall2022.pdf",
            "examTitle": "Computer Science Final Fall 2022",
            "examType": "Final",
            "examYear": 2022,
@@ -19,7 +19,7 @@
            "examPage": "examPages/CS_final_Fall2022.html"
        },
        {
-           "examName": "CS_final_Spring2017_compressed.pdf",
+           "examName": "CS_final_Spring2017.pdf",
            "examTitle": "Computer Science Final Spring 2017",
            "examType": "Final",
            "examYear": 2017,
@@ -28,7 +28,7 @@
            "examPage": "examPages/CS_final_Spring2017.html"
        }, 
        {
-         "examName": "CS_exam2_Fall2016_compressed.pdf",
+         "examName": "CS_exam2_Fall2016.pdf",
          "examTitle": "Computer Science Final Fall 2016",
          "examType": "2",
          "examYear": 2016,

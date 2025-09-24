@@ -15,9 +15,15 @@ $(document).ready(function() {
 
    //for consistency and ability to use for all types
    var prevUrl = document.referrer;
-   var fname = prevUrl.substring(prevUrl.lastIndexOf('/') + 1, prevUrl);
-   $('#topBut').attr('href', prevUrl);
+   var fname = ""
+   if(prevUrl.substring(prevUrl.length-5, prevUrl.length) == ".html"){
+     fname = prevUrl.substring(prevUrl.lastIndexOf('/') + 1, prevUrl.length-5);
+   }else{
+     fname = prevUrl.substring(prevUrl.lastIndexOf('/') + 1, prevUrl.length);
+   }
 
+   $('#topBut').attr('href', prevUrl);
+   
    //finds and reads in their specific exam info and outputs it using ajax, works with any course or any exam. all needs is json 
    $.ajax({
       type: "GET",
@@ -26,7 +32,12 @@ $(document).ready(function() {
       success: function (jsonData){
          //plus one to not include slash
          var wholeUrl = window.location.pathname;
-         var fname = wholeUrl.substring(wholeUrl.lastIndexOf('/') + 1, wholeUrl.length-5);
+         var fname = ""
+         if(wholeUrl.substring(wholeUrl.length-5, wholeUrl.length) == ".html"){
+           fname = wholeUrl.substring(wholeUrl.lastIndexOf('/') + 1, wholeUrl.length-5);
+         }else{
+          fname = wholeUrl.substring(wholeUrl.lastIndexOf('/') + 1, wholeUrl.length);
+         }
          $.each(jsonData.exams, function(i, exam){
             if(exam.examName.substring(0,exam.examName.length-4) == fname){
                //adding info from only that exam to page
@@ -36,7 +47,6 @@ $(document).ready(function() {
 
                //filling preview
                $('iframe').attr('src', "../rawExams/" + exam.examName);
-               
                $('h1').html(exam.examTitle); 
                $('#rating').html(exam.rating + "/5");
                //getting stars
