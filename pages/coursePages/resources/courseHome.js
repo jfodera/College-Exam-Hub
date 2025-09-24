@@ -4,7 +4,14 @@ $(document).ready(function() {
     
     // gets filename for read
     var wholeUrl = window.location.pathname;
-    var fname = wholeUrl.substring(wholeUrl.lastIndexOf('/') + 1, wholeUrl.length);
+    var fname = ""
+    if(wholeUrl.substring(wholeUrl.length-5, wholeUrl.length) == ".html"){
+      fname = wholeUrl.substring(wholeUrl.lastIndexOf('/') + 1, wholeUrl.length-5);
+    }else{
+      fname = wholeUrl.substring(wholeUrl.lastIndexOf('/') + 1, wholeUrl.length);
+    }
+
+
 
     // examArr stores information about every exam in the course's JSON file
     var examArr = [];
