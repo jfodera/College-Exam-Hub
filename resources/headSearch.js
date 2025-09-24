@@ -17,16 +17,16 @@ function travel(event){
    if(searchVal == "Biology"){
       //must be absolute so works on every page
       //rel: pages/coursePages/BIOL-1010/introBiol.html 
-      window.location.href = 'https://foderj.eastus.cloudapp.azure.com/ceh/pages/coursePages/BIOL-1010/introBiol.html';
+      window.location.href = 'https://ceh.josephfodera25-bf8.workers.dev/ceh/pages/coursePages/BIOL-1010/introBiol.html';
    }else if(searchVal == "Intro to Computer Science"){
       //rel: pages/coursePages/CSCI-1100/computerSci.html
-      window.location.href = 'https://foderj.eastus.cloudapp.azure.com/ceh/pages/coursePages/CSCI-1100/computerSci.html';
+      window.location.href = 'https://ceh.josephfodera25-bf8.workers.dev/ceh/pages/coursePages/CSCI-1100/computerSci.html';
    }else if(searchVal == "Data Structures"){
       //rel: pages/coursePages/CSCI-1200/datastructures.html 
-      window.location.href = 'https://foderj.eastus.cloudapp.azure.com/ceh/pages/coursePages/CSCI-1200/datastructures.html';
+      window.location.href = 'https://ceh.josephfodera25-bf8.workers.dev/ceh/pages/coursePages/CSCI-1200/datastructures.html';
    }else if(searchVal == "Physics 1"){
       //rel: pages/coursePages/PHYS-1100/physics1.html
-      window.location.href = 'https://foderj.eastus.cloudapp.azure.com/ceh/pages/coursePages/PHYS-1100/physics1.html';
+      window.location.href = 'https://ceh.josephfodera25-bf8.workers.dev/ceh/pages/coursePages/PHYS-1100/physics1.html';
    }else{
       $('#searchBar').val("");
       alert("No Results Found");
