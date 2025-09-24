@@ -4,7 +4,7 @@ $(document).ready(function() {
     
     // gets filename for read
     var wholeUrl = window.location.pathname;
-    var fname = wholeUrl.substring(wholeUrl.lastIndexOf('/') + 1, wholeUrl.length-5);
+    var fname = wholeUrl.substring(wholeUrl.lastIndexOf('/') + 1, wholeUrl.length);
 
     // examArr stores information about every exam in the course's JSON file
     var examArr = [];

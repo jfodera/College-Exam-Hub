@@ -2,8 +2,9 @@ College Exam Hub Homepage Link: https://foderj.eastus.cloudapp.azure.com/ceh/
 
 Repo Link: https://github.com/jfodera/College-Exam-Hub
 
-
-
+https://ceh.josephfodera25-bf8.workers.dev/ceh/pages/coursePages/CSCI-1100/computerSci.html
+https://ceh.josephfodera25-bf8.workers.dev/ceh/pages/coursePages/CSCI-1100/computerSci.html
+https://ceh.josephfodera25-bf8.workers.dev/ceh/pages/coursePages/CSCI-1100/computerSci.html
 
 Instructions: 
 
