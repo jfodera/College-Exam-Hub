@@ -15,7 +15,7 @@ $(document).ready(function() {
 
    //for consistency and ability to use for all types
    var prevUrl = document.referrer;
-   var fname = prevUrl.substring(prevUrl.lastIndexOf('/') + 1, prevUrl);
+   var fname = prevUrl.substring(prevUrl.lastIndexOf('/') + 1, prevUrl.length-5);
    $('#topBut').attr('href', prevUrl);
 
    //finds and reads in their specific exam info and outputs it using ajax, works with any course or any exam. all needs is json 
@@ -26,7 +26,7 @@ $(document).ready(function() {
       success: function (jsonData){
          //plus one to not include slash
          var wholeUrl = window.location.pathname;
-         var fname = wholeUrl.substring(wholeUrl.lastIndexOf('/') + 1, wholeUrl.length-5);
+         var fname = wholeUrl.substring(wholeUrl.lastIndexOf('/') + 1, wholeUrl.length);
          $.each(jsonData.exams, function(i, exam){
             if(exam.examName.substring(0,exam.examName.length-4) == fname){
                //adding info from only that exam to page
