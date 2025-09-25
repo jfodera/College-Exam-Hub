@@ -1,14 +1,9 @@
-College Exam Hub Homepage Link: https://foderj.eastus.cloudapp.azure.com/ceh/
+[College Exam Hub](https://foderj.eastus.cloudapp.azure.com/ceh.html) : https://foderj.eastus.cloudapp.azure.com/ceh.html
 
-Repo Link: https://github.com/jfodera/College-Exam-Hub
-
-https://ceh.josephfodera25-bf8.workers.dev/ceh/pages/coursePages/CSCI-1100/computerSci.html
-https://ceh.josephfodera25-bf8.workers.dev/ceh/pages/coursePages/CSCI-1100/computerSci.html
-https://ceh.josephfodera25-bf8.workers.dev/ceh/pages/coursePages/CSCI-1100/computerSci.html
 
 Instructions: 
 
-To open College Exam Hub, the user has to navigate to https://foderj.eastus.cloudapp.azure.com/ceh/; this will take them to the home page. In the main area of this page, the user can select a school from the dropdown menu, but currently, RPI is the only one being supported. After selecting the school the user can click on the find exams button to go to the find exams page, where they can upload or search for an exam. 
+To open College Exam Hub, the user has to navigate to https://foderj.eastus.cloudapp.azure.com/ceh.html; this will take them to the home page. In the main area of this page, the user can select a school from the dropdown menu, but currently, RPI is the only one being supported. After selecting the school the user can click on the find exams button to go to the find exams page, where they can upload or search for an exam. 
 
 If the user wants to upload an exam, they can drag and drop the exam they want to upload or click the choose file button to select a file from their file explorer. From there, if they choose to delete the file, they can click on the file itself inside the target box. If they choose to upload, they need to select the course the exam is for from the dropdown and click the upload button at the bottom of the target box.
 
@@ -19,7 +14,3 @@ There is a consistent header and footer on multiple pages, such as the home page
 The exam upload and rating functionalities currently do not do anything; ratings and files are not saved. The “Confirm Email” buttons are also not fully implemented, as they do not yet support redirecting you to a page in which you would confirm your email.
 
 
-
-*IMPORTANT NOTES* 
-
-*The virtual machine must be running for all of these functionalities to be present.*
